@@ -1,0 +1,159 @@
+body {
+    background-color: #f5aed6;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.home{
+    display: flex;
+
+}
+
+
+
+.img {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.img img {
+    width: 50%;
+    margin-top: 0px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.main nav {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.main ul {
+    display: flex; /* Enable Flexbox for the ul */
+    list-style: none; /* Remove bullet points */
+    justify-content: space-between; /* Distribute space equally between links */
+    margin-left: -40px;
+
+}
+
+.main a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color */
+    padding: 10px; /* Add some padding for better clicking area */
+    display: block; /* Make the entire area clickable */
+    align-self: center;
+}
+
+.main main {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.ending {
+    align-self: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ending h1 {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align the items */
+    }
+    
+.img {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.img img {
+    width: 50%;
+    margin-top: 0px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.main nav {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+
+.main ul {
+    display: flex; /* Enable Flexbox for the ul */
+    list-style: none; /* Remove bullet points */
+    justify-content: space-between; /* Distribute space equally between links */
+    margin-left: -40px;
+
+}
+
+.main a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color */
+    padding: 10px; /* Add some padding for better clicking area */
+    display: block; /* Make the entire area clickable */
+    align-self: center;
+}
+
+.main main {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px; 
+    margin-left: -30px;
+
+}
+
+.ending {
+    align-self: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: -30px;
+}
+
+.ending h1 {
+    font-size: 20px;
+}
+}
