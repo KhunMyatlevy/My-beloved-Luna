@@ -23,7 +23,7 @@ h1 {
 }
 
 .gallery-image {
-    width: 150px; /* Thumbnail size */
+    width: 185px; /* Thumbnail size */
     height: auto;
     margin: 10px;
     cursor: pointer;
@@ -88,11 +88,15 @@ h1 {
 }
 
 @media (max-width: 600px) {
+    body {
+        padding:0;
+    }
     .gallery {
         justify-content: center; /* Center gallery items on small screens */
+        padding: 5px;
     }
 
     .gallery-image {
-        width: 100px; /* Smaller thumbnail size for mobile */
+        width: 130px; /* Smaller thumbnail size for mobile */
     }
 }

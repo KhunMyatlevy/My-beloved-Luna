@@ -1,14 +1,11 @@
 body {
     background-color: #f5aed6;
-    padding: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 50px;
 
 }
 
 .home{
     display: flex;
-
 }
 
 
@@ -81,6 +78,10 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
     .home {
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center align the items */
